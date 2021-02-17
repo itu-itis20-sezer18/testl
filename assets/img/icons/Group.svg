@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <filter x="-96.4%" y="-96.4%" width="292.9%" height="292.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="9" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dive-1-copy-18" transform="translate(-654.000000, -320.000000)" fill="#5432F6">
+            <g id="Group" transform="translate(677.000000, 338.000000)">
+                <circle id="Toggle" filter="url(#filter-1)" cx="18" cy="23" r="14"></circle>
+                <circle id="Toggle" stroke="#D7D7D7" cx="18" cy="18" r="18"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
