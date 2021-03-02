@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="20" viewBox="0 0 19 20">
+    <defs>
+        <path id="j2yccthmva" d="M3.27 10.89c.144-.143.337-.223.54-.223h9.142c.421 0 .762-.341.762-.762v-7.62c0-.42-.34-.761-.762-.761H2.286c-.421 0-.762.34-.762.762v10.35L3.27 10.89zm.855 1.3l-2.824 2.825c-.48.48-1.301.14-1.301-.539V2.286C0 1.023 1.023 0 2.286 0h10.666c1.263 0 2.286 1.023 2.286 2.286v7.619c0 1.262-1.023 2.285-2.286 2.285H4.125z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-1278 -674) translate(1278 674)">
+                <g transform="translate(0 4)">
+                    <use fill="#5432F6" fill-rule="nonzero" xlink:href="#j2yccthmva"/>
+                </g>
+                <circle cx="13" cy="6" r="6" fill="#F44336"/>
+                <text fill="#FFF" font-family="Poppins-Bold, Poppins" font-size="8" font-weight="bold">
+                    <tspan x="11.576" y="9">1</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
