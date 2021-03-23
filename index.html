@@ -45,9 +45,20 @@
   }
   </style>
 <body style="overflow-x: hidden;">
-<app-root></app-root>
-<!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async="" defer="" src="//js.hs-scripts.com/19553143.js"></script>
+<app-root></app-root>
+<script>
+  function hidehb(){
+    setTimeout(hb,2000);
+    setTimeout(hb,6000);
+  }
+  function hb(){
+    var hub = document.getElementById('hubspot-messages-iframe-container')
+    hub.setAttribute('style', 'display:inline !important');
+  }
+</script>
+
+<!-- Start of HubSpot Embed Code -->
 <!-- End of HubSpot Embed Code -->
-<script src="runtime.ae5ea27ecda13eefc517.js" defer></script><script src="polyfills.8c151b8375e767ff858f.js" defer></script><script src="scripts.3cf90f8fc92130239739.js" defer></script><script src="main.aeb83f14660e83ad770f.js" defer></script></body>
+<script src="runtime.ae5ea27ecda13eefc517.js" defer></script><script src="polyfills.8c151b8375e767ff858f.js" defer></script><script src="scripts.3cf90f8fc92130239739.js" defer></script><script src="main.8db3981d3bc0352b19c6.js" defer></script></body>
 </html>
