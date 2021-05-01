@@ -5,10 +5,9 @@
   <title>Dive</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-
+  <meta property="og:title" content="Dive">
+  <meta property="og:description" content="Write your task, match with people, get it done!">
+  <meta property="og:image" content="/assets/img/dive-meta.png">
   <!-- Hotjar Tracking Code for thedive.app -->
 <script>
   (function(h,o,t,j,a,r){
@@ -20,12 +19,52 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-
+  <!-- Fullstory Tracking Code for thedive.app -->
+<script>
+  window['_fs_debug'] = false;
+  window['_fs_host'] = 'fullstory.com';
+  window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
+  window['_fs_org'] = '11TBVJ';
+  window['_fs_namespace'] = 'FS';
+  (function(m,n,e,t,l,o,g,y){
+      if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+      g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+      o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
+      y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+      g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+      g.anonymize=function(){g.identify(!!0)};
+      g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+      g.log = function(a,b){g("log",[a,b])};
+      g.consent=function(a){g("consent",!arguments.length||a)};
+      g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+      g.clearUserCookie=function(){};
+      g.setVars=function(n, p){g('setVars',[n,p]);};
+      g._w={};y='XMLHttpRequest';g._w[y]=m[y];y='fetch';g._w[y]=m[y];
+      if(m[y])m[y]=function(){return g._w[y].apply(this,arguments)};
+      g._v="1.3.0";
+  })(window,document,window['_fs_namespace'],'script','user');
+  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <link rel="icon" type="image/png" href="/assets/img/icons/icon.png">
-<link rel="stylesheet" href="styles.0d342dc8131ec0d85596.css"></head>
+  <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '829660167640118');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=829660167640118&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+<link rel="stylesheet" href="styles.c95880363acacdbef852.css"></head>
 <style>
   /* width */
   ::-webkit-scrollbar {
@@ -51,19 +90,22 @@
   }
   </style>
 <body style="overflow-x: hidden;">
-  <script crossorigin="" src="https://unpkg.com/@daily-co/daily-js"></script>
-<script>
-function daily(){
-  callFrame = window.DailyIframe.createFrame({
-    showLeaveButton: true,
-    iframeStyle: {
-      position: 'fixed',
-      width: '100%',
-      height: '100%',
-    },
-  });callFrame.join({ url: 'https://diveapp.daily.co/test' })
-}
-</script>
+<script type="text/javascript" id="hs-script-loader" async="" defer="" src="//js.hs-scripts.com/19553143.js"></script>
 <app-root></app-root>
-<script src="runtime.9411d40320959a051c36.js" defer></script><script src="polyfills.1fff1e011d7c50ed5cbc.js" defer></script><script src="scripts.2f8a96ddd3805208f9a1.js" defer></script><script src="main.e457321402866c48316f.js" defer></script></body>
+<script>
+  function hidehb(){
+    setTimeout(hb,2000);
+    setTimeout(hb,6000);
+  }
+  function hb(){
+    var hub = document.getElementById('hubspot-messages-iframe-container')
+    if(hub != null){
+      hub.setAttribute('style', 'display:inline !important');
+    }
+  }
+</script>
+
+<!-- Start of HubSpot Embed Code -->
+<!-- End of HubSpot Embed Code -->
+<script src="runtime.ae5ea27ecda13eefc517.js" defer></script><script src="polyfills.8c151b8375e767ff858f.js" defer></script><script src="scripts.3cf90f8fc92130239739.js" defer></script><script src="main.df66f4592cb2cdb61d63.js" defer></script></body>
 </html>
